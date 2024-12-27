@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Dettagli Utente</h2>
+<mat-dialog-content>
+  <p><strong>ID:</strong> {{ data.id }}</p>
+  <p><strong>Nome:</strong> {{ data.nome }}</p>
+  <p><strong>Cognome:</strong> {{ data.cognome }}</p>
+  <p><strong>Email:</strong> {{ data.email }}</p>
+  <p><strong>Data di Nascita:</strong> {{ data.dataNascita | date }}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Chiudi</button>
+</mat-dialog-actions>

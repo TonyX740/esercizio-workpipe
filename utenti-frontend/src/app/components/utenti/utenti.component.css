@@ -1,0 +1,54 @@
+.demo-table {
+  width: 100%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.table-container {
+  width: 100%; /* Imposta la larghezza della tabella al 100% del contenitore */
+  max-width: 900px; /* Imposta una larghezza massima per la tabella */
+  margin-top: 20px;
+  overflow-x: auto; /* Consente lo scroll orizzontale se la tabella è troppo larga */
+}
+
+mat-card {
+  margin: 20px auto;
+  max-width: 900px; /* Larghezza massima della card */
+}
+
+mat-paginator {
+  margin-top: 20px;
+}
+
+/* Fissa la larghezza delle colonne */
+.nome-column, .cognome-column {
+  width: 150px; /* Larghezza fissa per le colonne nome e cognome */
+}
+
+.azioni-column {
+  width: 100px; /* Larghezza fissa per la colonna delle azioni */
+  text-align: center;
+}
+
+/* Aggiungi uno stile per mantenere l'aspetto ordinato */
+table {
+  width: 100%; /* La tabella occuperà tutta la larghezza disponibile */
+}

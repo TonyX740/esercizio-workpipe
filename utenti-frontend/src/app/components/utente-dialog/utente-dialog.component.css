@@ -1,0 +1,6 @@
+/* Imposta la larghezza di mat-form-field al 100% */
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
